@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+body {
+    display: block;
+    margin: 8px;
+    margin-top: ;
+    margin-right: ;
+    margin-bottom: ;
+    margin-left: ;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: src="C:\Users\Admin\Pictures\1.jpg";
+}
+
+.container {
+    max-width: 1100px;
+    margin: 10px;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #010707;
+    margin-bottom: 3rem;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.pricing-card {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.pricing-card:last-child {
+    margin-right: 0;
+}
+
+.pricing-card h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.price span {
+    font-size: 1rem;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+.currency-selection {
+    margin-bottom: 20px;
+}
+
+.currency-selection {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.currency-selection label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.currency-selection select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.currency-selection {
+    margin-bottom: 20px;
+}
+
+.currency-selection label {
+    font-weight: bold;
+}
